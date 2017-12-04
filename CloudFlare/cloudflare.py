@@ -2,7 +2,7 @@
 from __future__ import absolute_import
 
 import json
-import requests
+import http_requests as requests
 
 from .logging_helper import CFlogger
 from .utils import user_agent, sanitize_secrets

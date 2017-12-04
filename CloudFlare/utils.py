@@ -2,7 +2,7 @@
 from __future__ import absolute_import
 
 import sys
-import requests
+import http_requests as requests
 
 from . import __version__
 
